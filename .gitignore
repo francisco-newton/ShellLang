@@ -1,7 +1,10 @@
-.sh
+# Ignorar arquivos gerados pelo Bison e Flex
+*.tab.c
+*.tab.h
+*.yy.c
 
-interpretador
+# Arquivos de objeto e binários
+*.o
+*.out
+*.exe
 
-.yy.c
-.tab.h
-.tab.c
