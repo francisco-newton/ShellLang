@@ -1,0 +1,46 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de parsing gerados automaticamente pelo PLY
+parser.out
+parsetab.py
+
+# Ambientes virtuais
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Configuração de IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de log ou saída
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Configurações específicas de sistema
+.DS_Store
+Thumbs.db
+
+# Pytest e outros testes
+htmlcov/
+.tox/
+.coverage
+.cache/
+.pytest_cache/
+
+# Arquivos de distribuição
+build/
+dist/
+*.egg-info/
